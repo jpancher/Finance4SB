@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBC9850E-B5C8-FF7C-ADB0-BE2D84ECB414" containerWithKeyObject="E22964C1-4E99-8477-FB45-1DA0D19F1282" localFKIndex="56A9352A-6005-874F-6572-4157E427A59D" name="Transaction_Lookup_FK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:15:01 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<referredTableLongName>Lookup</referredTableLongName>
+<deleteRule>RESTRICT</deleteRule>
+<referredTableID>9FBF1FFB-76DD-332E-E413-67DF42B29659</referredTableID>
+<keyObject>79AD433A-6A05-1838-2ECC-DCC249BE1068</keyObject>
+<referredKeyID>79AD433A-6A05-1838-2ECC-DCC249BE1068</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

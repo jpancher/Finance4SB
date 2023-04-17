@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F18F080A-E18D-A71B-DDE0-1B581784A02D" name="Lookup">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:31:31 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="F84BA8E0-ED7A-1F3C-0807-09ECF36D0D56">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:31:56 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GroupName" id="FA921495-4DFB-23B8-444F-02F1FB850B14">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:32:31 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="7B08E242-5864-FEFD-B825-ED820BD7713B">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:33:19 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="452EF222-C8D9-2229-B1C4-2C82DED44B63" name="Lookup PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:32:22 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F84BA8E0-ED7A-1F3C-0807-09ECF36D0D56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

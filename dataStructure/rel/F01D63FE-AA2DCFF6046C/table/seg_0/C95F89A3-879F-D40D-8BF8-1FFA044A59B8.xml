@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C95F89A3-879F-D40D-8BF8-1FFA044A59B8" name="BankAccount">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>09C3BDF3-1E70-04FF-3FCD-FE65600F92F0</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="55C4E3C3-3B8B-4D2A-CD92-A651F679A3EF">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>28F9EE4A-522E-ED56-D2FC-358F8ACA0A70</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="85732D52-35CF-E6AD-E8CA-C0407CC75257">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>E3EEABB0-1DF1-EC26-1BC3-6BF149DFEBB9</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agency" id="5BD89D21-21F7-1027-B1A5-6E15D66D4A67">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>3099462F-5C31-CA94-AF63-FED7D0DFCC93</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AccountNumber" id="F73AA871-46C1-7B77-30EF-66DE624007DD">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>A755548A-1368-FB79-6884-1D637DFF5789</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BankNumber" id="32ADE71D-4C65-CA00-69D4-42CC87582BC6">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>E0A021E9-270A-03F1-EE4D-F924EF9B7381</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BankName" id="FC2AD3D9-7FC2-72C7-AF89-46C0E4486ADC">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>98D518CD-A665-B636-FC6A-6E728669D82D</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observation" id="6A3F74A0-6FE6-E513-E09D-330C820CA4AC">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>5E1FA211-992D-DEC2-968C-27523A08391F</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9A303E6-7E90-C78F-4682-57052AC1B654" name="BankAccount_PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>107CB9B4-9D0B-195A-1493-B1E41DF13962</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55C4E3C3-3B8B-4D2A-CD92-A651F679A3EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

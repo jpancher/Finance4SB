@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="874C0069-B8A2-5D5F-29C5-A89549FFCF09" name="ChartOfAccounts">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>A6BAC170-D0D6-8985-149A-CE3B34074109</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="5FE462DF-163D-A7CC-54B2-67081E33E04F">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>A1F49DAD-9748-8EF5-2E21-6E821A87C88D</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ParentAccountId" id="CD5C26A7-5D1C-5E9F-172D-2563F879F0F0">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>AF4D998E-A7BC-D925-4BBE-6EEA0706C943</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="C38150AA-966D-3356-C39B-D41A80271717">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>431FD30A-7155-92E1-97F3-D154F782CA55</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ShowIncomeStatement" id="83E7988A-E685-2A90-D3A0-39D2FED69069">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>697A8ED4-3DCF-721B-9680-AA3DB6E7685F</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="107DBB1A-BDEF-55EB-6165-022DEA1B6BAB" name="ChartOfAccounts_PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>902BF871-1C2F-D6E4-A4FA-1C0776EFE6BC</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FE462DF-163D-A7CC-54B2-67081E33E04F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

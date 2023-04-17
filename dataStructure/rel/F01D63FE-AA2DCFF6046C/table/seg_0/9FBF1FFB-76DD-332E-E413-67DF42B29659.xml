@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FBF1FFB-76DD-332E-E413-67DF42B29659" name="Lookup">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>F18F080A-E18D-A71B-DDE0-1B581784A02D</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="F23A8903-7DED-7E46-0338-F896D6075811">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>F84BA8E0-ED7A-1F3C-0807-09ECF36D0D56</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GroupName" id="4751A7D8-5841-D398-A605-69B7AEE1D83E">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>FA921495-4DFB-23B8-444F-02F1FB850B14</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="B3E37860-A985-EAC9-EEC2-70288CC3BFDB">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>7B08E242-5864-FEFD-B825-ED820BD7713B</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79AD433A-6A05-1838-2ECC-DCC249BE1068" name="Lookup_PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 21:13:43 UTC</createdTime>
+<generatorID>452EF222-C8D9-2229-B1C4-2C82DED44B63</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F23A8903-7DED-7E46-0338-F896D6075811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

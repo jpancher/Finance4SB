@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8B93872-254B-BA9C-3C1F-C8C1F7D94E11" name="Supplier">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>0A6AA3A5-C21E-1471-0406-3F858E02DC1A</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SupplierGuid" id="42B3A87B-067C-3771-FDFD-650B24C1E14B">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>9C20D041-B8A4-4B13-C4A1-7DA809E013A5</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="E9D22254-7961-9AB5-8CBB-92592DB86CE1">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>1024C68B-F689-18CC-CD8D-46F1C0C8D17B</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Document" id="068BDB19-2ED1-F86C-2598-979A668BEC34">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>A5E6A31C-F5CA-2CC8-F456-B701D916E301</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="0AB67FE2-6F18-72A7-CEA9-5E6279E3B481">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>FAEA1991-83DF-D95D-9A57-C0B5490CDC63</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="5F57C450-EADE-91F7-7D1C-22A539329A0D">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>AAFEDF6D-097D-BE9A-40A1-D86B38A8D51F</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostalCode" id="EA20BED1-5CD3-988D-284E-9C86B4F47AC5">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>E98921AF-C7F7-1B14-9E9A-73E81D4831A4</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="3CFE999A-2E9D-AE9D-F483-BAA88DC4D5FC">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>AAE03B6B-C0CA-FBD6-F360-6493F20D7083</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country" id="9F720EB4-7EEC-1E36-6BBC-D79BCDF0E8D4">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>0166FC45-2DDA-8309-C655-6C1A09B75E25</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="County" id="9657EFE7-6AC7-8935-39D4-06E73779CB99">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>C0D3F891-A20A-ABA8-2FA5-E16C17698874</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8A79BC8-DBD1-F8ED-76AC-51F4BFA87CF3" name="Supplier_PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 22:11:51 UTC</createdTime>
+<generatorID>A0E58BA9-6712-ADD3-A7BF-CF03870764AC</generatorID>
+<ownerDesignName>dataStructure</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B3A87B-067C-3771-FDFD-650B24C1E14B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

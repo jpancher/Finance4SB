@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="10B748ED-4414-17C9-6B5B-C27D5F492CE7">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 18:21:30 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

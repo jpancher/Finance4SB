@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09C3BDF3-1E70-04FF-3FCD-FE65600F92F0" name="BankAccount">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:49:25 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="28F9EE4A-522E-ED56-D2FC-358F8ACA0A70">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:49:36 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="E3EEABB0-1DF1-EC26-1BC3-6BF149DFEBB9">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:50:19 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agency" id="3099462F-5C31-CA94-AF63-FED7D0DFCC93">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:50:51 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AccountNumber" id="A755548A-1368-FB79-6884-1D637DFF5789">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:51:55 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BankNumber" id="E0A021E9-270A-03F1-EE4D-F924EF9B7381">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:52:45 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BankName" id="98D518CD-A665-B636-FC6A-6E728669D82D">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:49:52 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Observation" id="5E1FA211-992D-DEC2-968C-27523A08391F">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:53:39 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="107CB9B4-9D0B-195A-1493-B1E41DF13962" name="BankAccount PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:49:45 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28F9EE4A-522E-ED56-D2FC-358F8ACA0A70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

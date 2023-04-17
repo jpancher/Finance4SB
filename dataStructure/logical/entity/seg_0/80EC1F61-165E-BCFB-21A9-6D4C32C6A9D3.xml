@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80EC1F61-165E-BCFB-21A9-6D4C32C6A9D3" name="Transaction">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 18:34:46 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TransactionGuid" id="4F4E55D6-3DA5-339B-D9AF-9F256DE0AE3F">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 18:52:07 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AccrualDate" id="4DF13AA7-19BE-6BD3-A38E-C9964F28C6F4">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:02:26 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<synonym>DataCompetencia</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DueDate" id="D15AFB40-627A-CB22-F3A3-6F4DD42CA0D6">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:10:38 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<synonym>DataVencimento</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PaymentDate" id="9E6129F0-FA55-145A-2DDD-CAF712C52FDB">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:12:24 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StatusLookupId" id="B032DAAD-270D-F662-1044-871018E94973">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:13:03 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<sourceType>System</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Value" id="4ECCA8BA-6706-40AE-5E2B-ADACF1FC010B">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:14:31 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PenaltAndInterestOrDiscount" id="F2E2EE9C-E944-8FAD-3125-E2CFCD706962">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:16:04 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="8E28BFD5-BC7F-305B-1565-509C1B686886">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:18:15 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SupplierGuid" id="941B27C7-4DE8-F986-7D02-1EFEF2873A78">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:22:39 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AccountId" id="5892B043-8408-DF42-43F9-4A9A0841003F">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:24:30 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CostCenterId" id="51467206-F51A-E4A0-9EB6-B528CBCAF21C">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:25:44 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TypeLookupId" id="F21C3F10-B8E1-9880-C34B-217B1F6BE136">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:26:40 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BankAccountId" id="C6DC7A6A-AB51-D616-B7D3-F0376462802D">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:30:47 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3C9FEC3-01F3-276B-B95C-2AC7CAF523F7" name="Transaction PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:02:13 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F4E55D6-3DA5-339B-D9AF-9F256DE0AE3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

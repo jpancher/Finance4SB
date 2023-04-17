@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6BAC170-D0D6-8985-149A-CE3B34074109" name="ChartOfAccounts">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:34:26 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="A1F49DAD-9748-8EF5-2E21-6E821A87C88D">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:35:29 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ParentAccountId" id="AF4D998E-A7BC-D925-4BBE-6EEA0706C943">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:35:55 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="431FD30A-7155-92E1-97F3-D154F782CA55">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:36:22 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ShowIncomeStatement" id="697A8ED4-3DCF-721B-9680-AA3DB6E7685F">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:43:58 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="902BF871-1C2F-D6E4-A4FA-1C0776EFE6BC" name="ChartOfAccounts PK">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 20:35:51 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<engineerTo>
+<item key="F01D63FE-73D5-6316-A170-AA2DCFF6046C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1F49DAD-9748-8EF5-2E21-6E821A87C88D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

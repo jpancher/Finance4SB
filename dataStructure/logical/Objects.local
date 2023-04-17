@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="09C3BDF3-1E70-04FF-3FCD-FE65600F92F0" name="BankAccount" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="39CE92C4-D81C-85F4-A5FE-60DEA4C07AF4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A6BAC170-D0D6-8985-149A-CE3B34074109" name="ChartOfAccounts" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="39CE92C4-D81C-85F4-A5FE-60DEA4C07AF4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8B15FDC3-2753-7665-D919-83F64566F3B1" name="CostCenter" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="39CE92C4-D81C-85F4-A5FE-60DEA4C07AF4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F18F080A-E18D-A71B-DDE0-1B581784A02D" name="Lookup" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="39CE92C4-D81C-85F4-A5FE-60DEA4C07AF4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0A6AA3A5-C21E-1471-0406-3F858E02DC1A" name="Supplier" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="39CE92C4-D81C-85F4-A5FE-60DEA4C07AF4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="80EC1F61-165E-BCFB-21A9-6D4C32C6A9D3" name="Transaction" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="39CE92C4-D81C-85F4-A5FE-60DEA4C07AF4" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

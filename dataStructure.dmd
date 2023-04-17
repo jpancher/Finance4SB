@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dataStructure" id="BCE7534F-F196-ABFC-1D54-D712D182806B" version="3.5">
+<createdBy>jpanc</createdBy>
+<createdTime>2023-04-17 18:21:30 UTC</createdTime>
+<ownerDesignName>dataStructure</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BCE7534F-F196-ABFC-1D54-D712D182806B</designId>
+</OSDM_Design>
