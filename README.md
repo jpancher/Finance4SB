@@ -2,7 +2,7 @@
 Finance Application for Small Business<BR>
 --> Tech Stack:<BR>
 --> Front: Angular <BR> 
---> Back: SQL (Oracle Autonomous DB) + Web Minimal API (.Net) or Autonomous DB REST API<BR>
+--> Back: SQL (Oracle Autonomous DB) + <a href="https://github.com/jpancher/financeAPI">Web Minimal API (.Net)</a> or Autonomous DB REST API<BR>
 <BR><BR>
 The purpose of this software is to support the financial process of a small business. <BR>
 <BR><BR>
